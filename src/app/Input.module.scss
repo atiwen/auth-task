@@ -1,0 +1,52 @@
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  
+    .label {
+      font-weight: 500;
+    }
+  
+    .input {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+      outline: none;
+  
+      &:focus {
+        border-color: #0070f3;
+      }
+    }
+  
+    .inputError {
+      border-color: red;
+    }
+  
+    .error {
+      color: red;
+      font-size: 0.8rem;
+    }
+  }
+  
+  .group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  
+    label {
+      margin-bottom: 0.25rem;
+    }
+  
+    input {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  
+    span {
+      color: red;
+      font-size: 0.8rem;
+    }
+  }
+  

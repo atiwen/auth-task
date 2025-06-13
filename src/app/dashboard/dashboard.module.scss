@@ -1,0 +1,29 @@
+.dashboardContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  
+    h1 {
+      margin-bottom: 1.5rem;
+      color: #333;
+    }
+  
+    .userInfo {
+      margin-top: 2rem;
+      padding: 1.5rem;
+      background: #f9f9f9;
+      border-radius: 8px;
+      display: inline-block;
+  
+      img {
+        border-radius: 50%;
+        margin-bottom: 1rem;
+      }
+  
+      p {
+        margin: 0.5rem 0;
+        color: #555;
+      }
+    }
+  }
